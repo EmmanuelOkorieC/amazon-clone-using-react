@@ -9,8 +9,31 @@ It was an interesting and woderful project and i learnt a lot working on it
 
 ```mermaid
 graph TD;
-   A-->B;
-   A-->C;
-   B-->D;
-   C-->D;
+   Alice's House-->Bob's House;
+   Alice's House-->Cabin;
+   Alice's House-->Post Office;
+   Bob's House-->Alice's House;
+   Bob's House-->Town Hall;
+   Cabin-->Alice's House;
+   Post Office-->Alice's House;
+   Town Hall-->Bob's House;
+   Town Hall-->Daria's House;
+   Town Hall-->Marketplace;
+   Town Hall-->Shop;
+   Daria's House-->Ernie's House;
+   Daria's House-->Town Hall;
+   Ernie's House-->Daria's House;
+   Ernie's House-->Grete's House;
+   Grete's House-->Ernie's House;
+   Grete's House-->Farm;
+   Grete's House-->Shop;
+   Farm-->Grete's House;
+   Farm-->Marketplace;
+   Shop-->Grete's House;
+   Shop-->Marketplace;
+   Shop-->Town Hall;
+   Marketplace-->Farm;
+   Marketplace-->Post Office;
+   Marketplace-->Shop;
+   Marketplace-->Town Hall;
 ```
