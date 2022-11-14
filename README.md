@@ -6,3 +6,11 @@ I tried integrating stripe for payment earlier on but then i realized stripe doe
 The code i used for paystack payment integration can be found on the paymentTwo component in the src folder
 I also created a time stamp page for orders after successful processing of payment. I did this using firebase and firestore.
 It was an interesting and woderful project and i learnt a lot working on it
+
+```mermaid
+graph TD;
+   A-->B;
+   A-->C;
+   B-->D;
+   C-->D;
+```
