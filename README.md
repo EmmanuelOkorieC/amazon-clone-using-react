@@ -9,8 +9,8 @@ It was an interesting and woderful project and i learnt a lot working on it
 
 ```mermaid
 graph TD;
-   "Alice's House"-->"Bob's House";
-   "Alice's House"-->"Cabin";
-   "Alice's House"-->Post Office";
-   "Bob's House"-->"Alice's House";
+   A[Alice's House]-->B[Bob's House];
+   A-->C[Cabin];
+   A-->P[Post Office];
+   B-->A;
 ```
