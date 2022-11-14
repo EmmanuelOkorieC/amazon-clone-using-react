@@ -9,18 +9,18 @@ It was an interesting and woderful project and i learnt a lot working on it
 
 ```mermaid
 graph TD;
-   A[Alice's House]-->B[Bob's House];
-   A-->C[Cabin];
-   A-->P[Post Office];
-   B-->T[Town Hall];
-   T-->D[Daria's House];
-   T-->M[Marketplace];
-   T-->S[Shop];
-   D-->E[Ernie's House];
-   E-->G[Grete's House];
-   G-->F[Farm];
-   G-->S;
-   F-->M;
-   S-->M;
-   M-->P;
+   F[Farm]-->M[Marketplace];
+   M-->P[Post Office];
+   P-->A[Alice's House];
+   C[Cabin]-->A
+   A-->B[Bob's House]
+   B-->T[Town Hall]
+   D[Daria's House]-->T
+   T-->S[Shop]
+   T-->M
+   S-->M
+   D-->E[Ernie's House]
+   E-->G[Grete's House]
+   G-->S
+   G-->F
 ```
